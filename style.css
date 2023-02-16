@@ -1,0 +1,32 @@
+
+.hidden {
+    display: none;
+}
+
+header{
+    background-color: #7c9458;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    /*   background-image: url(""); */
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 864px;
+}
+
+header h1{
+    text-shadow: 2px 2px 3px #010;
+}
+body{
+    background-color: #7c9458;
+    text-align: center;
+    padding: 5px;
+    color: brown;
+ /*   background-image: url(""); */
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 864px;
+}
+h1{
+    text-shadow: 2px 2px 3px #010;
+}

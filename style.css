@@ -3,30 +3,24 @@
     display: none;
 }
 
-header{
+header {
     background-color: #7c9458;
     text-align: center;
     padding: 5px;
-    color: green;
-    /*   background-image: url(""); */
+    color: rgb(17, 177, 17);
     background-repeat: no-repeat;
     background-position: center;
     min-width: 864px;
 }
 
-header h1{
-    text-shadow: 2px 2px 3px #010;
-}
-body{
-    background-color: #7c9458;
-    text-align: center;
+body {
+    background-image: linear-gradient(45deg,#ecf00e, #fdff7b);
+    text-align: center;    
     padding: 5px;
-    color: brown;
- /*   background-image: url(""); */
+    color: rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-position: center;
-    min-width: 864px;
+    min-width: 350px;
 }
-h1{
-    text-shadow: 2px 2px 3px #010;
-}
+
+

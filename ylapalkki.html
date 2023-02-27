@@ -1,37 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <style>
 
-    <link href="./navigationbar.css" rel="navigation" type="text/css"/>
+        .navbar {
+            background-color: darkgreen;
+            overflow: hidden;
+            width: 570px;
+            margin: auto;
+        }
+        .navbar a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        ul
+        {
+            list-style-type: none;
+            margin: auto;
+            padding: 0;
+            overflow: hidden;
+            background-color: darkgreen;
+            width: 900px;
+            display: inline-block;
+        }
+
+        li
+        {
+            float: left;
+        }
+
+        li a
+        {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover
+        {
+            background-color: limegreen;
+        }
+    </style>
+
+    <meta charset="UTF-8">
 </head>
 
 <body>
 
-<header class="wp-block-template-part">
-    <div class="has-global-padding is-layout-constrained wp-container-7 wp-block-group has-custom-tausta-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-        <div class="is-layout-flex wp-container-4 wp-block-columns">
-            <div class="is-layout-flow wp-block-column" style="flex-basis:25%">
-                <div class="alignright wp-block-site-logo"><a href="https://www.baanaani.fi/wp/" class="custom-logo-link" rel="home" aria-current="page">
-                <img loading="lazy" width="160" height="141" src="https://www.baanaani.fi/wp/wp-content/uploads/2023/02/Baanaani-logo-jota-kaytetaan.png" class="custom-logo" alt="Baanaani" decoding="async" srcset="https://www.baanaani.fi/wp/wp-content/uploads/2023/02/Baanaani-logo-jota-kaytetaan.png 761w, https://www.baanaani.fi/wp/wp-content/uploads/2023/02/Baanaani-logo-jota-kaytetaan-300x265.png 300w" sizes="(max-width: 160px) 100vw, 160px"></a></div></div>
+<header>
+<div>
+    <div><a href="https://www.baanaani.fi/wp/" class="custom-logo-link" rel="home" aria-current="page">
+    <img loading="lazy" width="160" height="141"
+         src="https://www.baanaani.fi/wp/wp-content/uploads/2023/02/Baanaani-logo-jota-kaytetaan.png"
+         class="custom-logo" alt="Baanaani" decoding="async"
+         srcset="https://www.baanaani.fi/wp/wp-content/uploads/2023/02/Baanaani-logo-jota-kaytetaan.png 761w,
+                     https://www.baanaani.fi/wp/wp-content/uploads/2023/02/Baanaani-logo-jota-kaytetaan-300x265.png 300w"
+         sizes="(max-width: 160px) 100vw, 160px"></a></div>
+    <div><h1><strong>Baanaani</strong></h1></div>
+</div>
 
-            <div class="is-layout-flow wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
-                <h1 class="has-text-align-center has-x-large-font-size"><strong>Baanaani</strong></h1>
-            </div>
 
-            <div class="is-layout-flow wp-block-column" style="flex-basis:25%"></div>
-        </div>
-    </div>
+
+
 </header>
-<div align="center">
 
+<div class="navbar">
+    <a class="active" href="https://www.baanaani.fi/wp">Alkuun</a>
+    <a href="https://www.baanaani.fi/wp/esittely/">Esittely</a>
+    <a href="https://www.baanaani.fi/wp/ota-yhteytta/">Ota yhteyttä</a>
+    <a href="https://www.baanaani.fi/wp/baanaani/">Baanaani</a>
+    <a href="https://www.baanaani.fi/wp/ajankohtaista/">Ajankohtaista</a>
+</div>
+
+<!--
 <ul>
-    <li><a class="active" href="https://www.baanaani.fi/wp">Alkuun</a></li>
+    <li><a href="https://www.baanaani.fi/wp">Alkuun</a></li>
     <li><a href="https://www.baanaani.fi/wp/esittely/">Esittely</a></li>
     <li><a href="https://www.baanaani.fi/wp/ota-yhteytta/">Ota yhteyttä</a></li>
     <li><a href="https://www.baanaani.fi/wp/baanaani/">Baanaani</a></li>
     <li><a href="https://www.baanaani.fi/wp/ajankohtaista/">Ajankohtaista</a></li>
 </ul>
-</div>
+-->
 </body>
 </html>

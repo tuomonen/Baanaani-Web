@@ -14,13 +14,17 @@ header {
 }
 
 body {
-    background-image: linear-gradient(45deg,#ecf00e, #fdff7b);
+    font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+    background-image: linear-gradient(0deg,#ecf00e, #fdff7b);
     text-align: center;    
     padding: 5px;
     color: rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-position: center;
-    min-width: 350px;
+    min-width: 300px;
+    min-height: 275px;
+    max-height: 350px;
 }
+
 
 

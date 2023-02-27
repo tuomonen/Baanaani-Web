@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet" type="text/css"/>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Baanaani</title>
 
 </head>
@@ -11,18 +13,21 @@
 <h1>Baanaani.fi</h1>
 </body>
 <div class="footer-container">
-    <a href = "support@baanaani.fi">support@baanaani.fi</a> 
+    <a href = "mailto: support@baanaani.fi">support@baanaani.fi</a> 
     <br>
     <br>
-    <span style="margin-right: 15px;"> Your content here </span> 
-    <span style="margin-right: 15px;"> Your content here </span> 
+    <span style="margin-right: 15px;">  <a href="https://www.baanaani.fi/wp/">Alkuun
+    </a>  </span> 
+    <span style="margin-right: 15px;">  <a href="https://www.baanaani.fi/wp/ota-yhteytta/">Ota yhteyttä</a>  </span> 
     <br>
     <br>
-    <span style="margin-right: 15px;">  <a href="https://www.w3schools.com">Visit W3Schools</a>  </span> 
-    <span style="margin-right: 15px;">  <a href="https://www.w3schools.com">Visit W3Schools</a>  </span> 
+    <span style="margin-right: 15px;">  <a href="https://www.baanaani.fi/wp/esittely/">Esittely
+    </a>  </span> 
+    <span style="margin-right: 15px;">  <a href="https://www.baanaani.fi/wp/baanaani/">Mikä ihmeen Baanaani?</a>  </span> 
     <br>
-    <span style="margin-right: 15px;"> Your content here </span> 
-    <span style="margin-right: 15px;"> Your content here </span> 
+    <a style="margin-right: 15px;" href = "tel: 0505216969">Puh. 050 521 6969 </a> 
+    <span style="margin-right: 15px;"> Kartanonkatu 10, 2. krs.
+        30100 Forssa </span> 
     
     <div class="footer-content">
         <br>
